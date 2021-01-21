@@ -70,7 +70,7 @@ URL-ссылка на изображение.
 
 Пример: [`http://127.0.0.1:5500/main.html?bottom=dergunov × qurle`](http://127.0.0.1:5500/main.html?bottom=derginov%20%C3%97%20qurle)
 
-Несколько пааметров: [`http://127.0.0.1:5500/main.html?score=10&cover=https://i.scdn.co/image/ab67706f00000003e1ce4acd2b501398c6d745eb&playlist=mint Presents... Best Dance Songs of 2020&bottom=awesome.devs`](http://127.0.0.1:5500/main.html?score=10&cover=https://i.scdn.co/image/ab67706f00000003e1ce4acd2b501398c6d745eb&playlist=mint%20Presents...%20Best%20Dance%20Songs%20of%202020&bottom=awesome.devs)
+*Несколько параметров:* [`http://127.0.0.1:5500/main.html?score=10&cover=https://i.scdn.co/image/ab67706f00000003e1ce4acd2b501398c6d745eb&playlist=mint Presents... Best Dance Songs of 2020&bottom=awesome.devs`](http://127.0.0.1:5500/main.html?score=10&cover=https://i.scdn.co/image/ab67706f00000003e1ce4acd2b501398c6d745eb&playlist=mint%20Presents...%20Best%20Dance%20Songs%20of%202020&bottom=awesome.devs)
 
 ## Дебаг и костыли
 
