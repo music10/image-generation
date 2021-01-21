@@ -19,16 +19,16 @@
 
 ## Присутствующие элементы и иерархия:
 
-- **Заголовок** ([heading](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L87)) — большой зелёный текст
+- Заголовок ([heading](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L87)) — большой зелёный текст
 - Анонимная группа
-    - **Обложка** плейлиста ([cover](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L101)) — загружается по ссылке
+    - Обложка плейлиста ([cover](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L101)) — загружается по ссылке
     - Текстовая группа ([textGroup](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L148)) — справа от обложки
-        - **Текст** ([text](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L132)) — белый сопровождающий текст
-        - **Плейлист** ([playlist](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L141)) — название плейлиста
-- **Лого** ([logo](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L155)) — внизу справа
+        - Текст ([text](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L132)) — белый сопровождающий текст
+        - Плейлист ([playlist](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L141)) — название плейлиста
+- Лого ([logo](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L155)) — внизу справа
 - Нижняя группа ([bottomGroup](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L179)) — можно поставить вместо иконки
-    - **Иконка** ([icon](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L163)) — эквалайзер
-    - **Текст** ([bottom](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L168)) — любой текст
+    - Иконка ([icon](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L163)) — эквалайзер
+    - Текст ([bottom](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L168)) — любой текст
 
 ## URL-параметры
 
