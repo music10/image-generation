@@ -11,24 +11,24 @@
 
 ## Файлы
 
-Написано скриптом, встроенным в HTML-файл main.html. В ассетах лого и иконка.
+Написано скриптом, встроенным в HTML-файл [main.html](https://github.com/music10/image-generation/blob/master/main.html). В ассетах лого и иконка.
 
-В examples  немного примеров.
+В [examples](https://github.com/music10/image-generation/tree/master/examples)  немного примеров.
 
 При генерации получаем файл musiq sharing **n** in **playlist**.png, где n — количество очков, playlist — название плейлиста. Имя файла обрезается до 32х символов.
 
 ## Присутствующие элементы и иерархия:
 
-- **Заголовок** (heading) — большой зелёный текст
+- **Заголовок** ([heading](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L87)) — большой зелёный текст
 - Анонимная группа
-    - **Обложка** плейлиста (cover) — загружается по ссылке
-    - Текстовая группа (textGroup) — справа от обложки
-        - **Текст** (text) — белый сопровождающий текст
-        - **Плейлист** (playlist) — название плейлиста
-- **Лого** (logo) — внизу справа
-- Нижняя группа (bottomGroup) — можно поставить вместо иконки
-    - **Иконка** (icon) — эквалайзер
-    - **Текст** (bottomText) — любой текст
+    - **Обложка** плейлиста ([cover](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L101)) — загружается по ссылке
+    - Текстовая группа ([textGroup](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L148)) — справа от обложки
+        - **Текст** ([text](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L132)) — белый сопровождающий текст
+        - **Плейлист** ([playlist](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L141)) — название плейлиста
+- **Лого** ([logo](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L155)) — внизу справа
+- Нижняя группа ([bottomGroup](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L179)) — можно поставить вместо иконки
+    - **Иконка** ([icon](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L163)) — эквалайзер
+    - **Текст** ([bottom](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L168)) — любой текст
 
 ## URL-параметры
 
@@ -74,16 +74,16 @@ URL-ссылка на изображение.
 
 ## Дебаг и костыли
 
-Строчка `setTimeout(function () { link.click() }, IS_DEBUG ? 500 : 0)`
+Строчка [`setTimeout(function () { link.click() }, IS_DEBUG ? 500 : 0)`](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L204)
 
-При IS_DEBUG = true скрипт даёт время канвасу прогрузиться. При не-дебаге имитируется нажатие кнопки скачивания сразу же. Если оставить без тайм-аута, то работать не будет.
+При [IS_DEBUG = true](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L16) скрипт даёт время канвасу прогрузиться. При не-дебаге имитируется нажатие кнопки скачивания сразу же. Если оставить без тайм-аута, то работать не будет.
 
 ## Другие константы
 
-`Colors (enum)` — палитра
+[`Colors (enum)`](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L18) — палитра
 
-`Sizes (enum)` — размеры канваса и повторяющиеся значения
+[`Sizes (enum)`](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L24) — размеры канваса и повторяющиеся значения
 
-`headings[]` — большие зелёные заголовки
+[`headings[]`](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L32) — большие зелёные заголовки
 
-`texts[]` — маленькие белые незаголовки
+[`texts[]`](https://github.com/music10/image-generation/blob/f62bf043cca5ef1a56abf42bb23d08e2581388df/main.html#L45) — маленькие белые незаголовки
