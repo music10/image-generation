@@ -13,9 +13,9 @@
 
 Написано скриптом, встроенным в HTML-файл [main.html](https://github.com/music10/image-generation/blob/master/main.html). В ассетах лого и иконка.
 
-В [examples](https://github.com/music10/image-generation/tree/master/examples)  немного примеров.
+В [examples](https://github.com/music10/image-generation/tree/master/examples) немного примеров.
 
-При генерации получаем файл musiq sharing **n** in **playlist**.png, где n — количество очков, playlist — название плейлиста. Имя файла обрезается до 32х символов.
+При генерации получаем файл "musiq sharing **n** in **playlist**.png", где n — количество очков, playlist — название плейлиста. Имя файла обрезается до 32х символов.
 
 ## Присутствующие элементы и иерархия:
 
